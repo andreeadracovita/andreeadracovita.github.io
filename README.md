@@ -1,1 +1,1 @@
-# andreeadracovita.github.io
+layout: home
