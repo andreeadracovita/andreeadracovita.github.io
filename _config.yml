@@ -1,5 +1,5 @@
 theme: minima
 title: Andreea Racovita
 header_pages:
-- about.md
-- projects.md
+  - about.md
+  - projects.md
