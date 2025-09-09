@@ -7,7 +7,7 @@ export default function Footer() {
 				<footer className="row row-cols-1 row-cols-sm-2 row-cols-md-12 my-5 px-5">
 					<div className="col-3">
 						<a href="/" className="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
-							<img src="src/assets/images/logo-black.png" height="40" />
+							<img src="logo-black.png" height="40" />
 						</a>
 						<p className="text-body-secondary open-sans">© Andreea Racovita {currentYear}</p>
 					</div>
@@ -18,10 +18,10 @@ export default function Footer() {
 						<p className="fw-bold text-uppercase">Phone</p>
 						<p className="open-sans mb-3">+40 755 246 451</p>
 						<a href="https://github.com/andreeadracovita">
-							<img src="src/assets/images/github.svg" height="30px" className="me-3" />
+							<img src="github.svg" height="30px" className="me-3" />
 						</a>
 						<a href="https://www.linkedin.com/in/andreearacovita/">
-							<img src="src/assets/images/linkedin.svg" height="30px" />
+							<img src="linkedin.svg" height="30px" />
 						</a>
 					</div>
 				</footer>

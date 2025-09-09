@@ -5,7 +5,7 @@ export default function Navbar() {
 			<header className="d-flex flex-wrap align-items-center justify-content-center justify-content-between py-3 mb-4 px-5">
 				<div className="col-md-3 mb-2 mb-md-0">
 					<a href="#" className="d-inline-flex link-body-emphasis text-decoration-none">
-						<img src="src/assets/images/logo.png" height="40" />
+						<img src="logo.png" height="40" />
 					</a>
 				</div>
 
