@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "homepage": "https://andreeadracovita.github.io",
   "dependencies": {
