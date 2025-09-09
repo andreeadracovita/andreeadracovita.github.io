@@ -1,0 +1,184 @@
+:root {
+  --accent-color: #FBF303; /* yellow: #FBF303, spring teal: #0EA7A5 */
+}
+
+/* Fonts */
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.open-sans-light {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* General */
+body {
+  background-color: black;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.z-1 {
+  position: relative;
+  z-index: 1;
+}
+
+.pill-button {
+  border-radius: 500px;
+}
+
+.anchor-parent {
+  position: relative;
+}
+
+.subsection-header {
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  writing-mode: vertical-lr;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.timeline {
+  border-left: 1px solid black;
+}
+
+.timeline-dot {
+  width: 24px;
+  height: 24px;
+  background-color: black;
+  border: 6px solid var(--accent-color);
+  border-radius: 50%;
+  margin-left: -7px;
+}
+
+/* Colors */
+.black-bg-color {
+  background-color: #000209;
+}
+
+.yellow-bg-color {
+  background-color: var(--accent-color);
+}
+
+.light-grey-bg-color {
+  background-color: #EFF3F4;
+}
+
+.dark-grey-bg-color {
+  background-color: #DADEDF;
+}
+
+.text-yellow {
+  color: var(--accent-color);
+}
+
+/* Section: Hero */
+.grayscale-img {
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Edge and Firefox 35+ */
+}
+
+/* Section: Ribbon */
+#skills-ribbon {
+  background-color: #000209;
+  padding-top: 1em !important;
+  padding-bottom: 1em !important;
+  width: 100%;
+}
+
+/* Section: About */
+#yellow-circle-about {
+  background-color: var(--accent-color);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  z-index: 0;
+}
+
+/* Section: Experience */
+#exp-first {
+  position: absolute;
+  left: -29px;
+}
+
+#exp-second {
+  position: absolute;
+  left: -29px;
+}
+
+/* Section: Projects */
+.yellow-tag-accent {
+  background-color: var(--accent-color);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: -35%;
+  z-index: 0;
+}
+
+.grey-card {
+  border: 1px solid #000209;
+  background-color: #EFF3F4;
+  box-shadow: -10px -10px #DADEDF;
+}
+
+/* Section: Education */
+#edu-first {
+  position: absolute;
+  left: -29px;
+}
+
+#edu-second {
+  position: absolute;
+  left: -29px;
+}
+
+/* Mobile view */
+@media (max-width: 991px) {
+  #hero-text {
+    text-align: center;
+  }
+
+  .subsection-header {
+    margin-bottom: 24px;
+    writing-mode: horizontal-tb;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  .yellow-tag-accent {
+    width: 50%;
+    height: 80%;
+    top: -8px;
+    left: -10%;
+  }
+}
