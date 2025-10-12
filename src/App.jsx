@@ -14,12 +14,12 @@ function App() {
 
   return (
     <div className="container black-bg-color anchor-parent">
+      <Navbar />
       <div className="container col-xxl-8 light-grey-bg-color px-0 py-3 my-0">
-        <Navbar />
         <Hero />
         <SkillRibbon />
 
-        <div className="mx-5 mt-5 pt-5">
+        <div className="mx-5 mt-5">
           <About />
           <Experience />
           <Projects />

@@ -16,10 +16,10 @@ export default function Experience() {
 							</div>
 							<p className="open-sans-light mb-1">Adobe Systems / Bucharest</p>
 							<ul className="open-sans">
-								<li>Leading the initiative for text decorations on desktop web, iOS and Android devices.</li>
-								<li>Onboarding and support.</li>
-								<li>Implement core functionality.</li>
-								<li>TypeScript / C++ / Node.js / Web Components / Git / Jira</li>
+								<li>Lead development of multiple typography features on desktop web, iOS and Android devices using TypeScript, C++ in a Node.js environment</li>
+								<li>Gain solid soft skills: project management, organisational and communication</li>
+								<li>Maintain code base integrity through unit and integration testing, code reviews and bug fixing.</li>
+								<li>TypeScript / C++ / Node.js / Web Applications / Git / Jira / VS Code / MacOS</li>
 							</ul>
 						</div>
 						<div>
@@ -29,8 +29,8 @@ export default function Experience() {
 							</div>
 							<p className="open-sans-light mb-1">Ubisoft / Bucharest</p>
 							<ul className="open-sans">
-								<li>Rendering feature for icon generation using C++, Vulkan API and GPU-pipeline for fast, real-time acquisition.</li>
-								<li>Mentorship.</li>
+								<li>Develop and improve rendering features using C++, Vulkan API and GPU-pipeline, for improved visual results and fast processing.</li>
+								<li>Mentor students during the development of a game, leading to successful development and great teamwork experience.</li>
 							</ul>
 						</div>
 					</div>

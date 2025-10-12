@@ -1,5 +1,6 @@
 :root {
   --accent-color: #FBF303; /* yellow: #FBF303, spring teal: #0EA7A5 */
+  --light-grey: #C2C2C2;
 }
 
 /* Fonts */
@@ -65,12 +66,11 @@ p {
 }
 
 .timeline-dot {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   background-color: black;
-  border: 6px solid var(--accent-color);
   border-radius: 50%;
-  margin-left: -7px;
+  margin-left: -5px;
 }
 
 /* Colors */
@@ -94,6 +94,20 @@ p {
   color: var(--accent-color);
 }
 
+/* Section: Navbar */
+#navbar {
+  background-color: black;
+  color: white;
+}
+
+#navbar a {
+  color: inherit;
+}
+
+#navbar a:hover {
+  color: var(--light-grey);
+}
+
 /* Section: Hero */
 .grayscale-img {
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
@@ -115,8 +129,8 @@ p {
   height: 150px;
   border-radius: 50%;
   position: absolute;
-  top: -30px;
-  left: -30px;
+  top: -60px;
+  left: -60px;
   z-index: 0;
 }
 
@@ -140,6 +154,12 @@ p {
   top: 0px;
   left: -35%;
   z-index: 0;
+}
+
+.link-icon {
+  top: 10px;
+  right: 10px;
+  color: white;
 }
 
 .grey-card {
