@@ -26,6 +26,14 @@
   font-variation-settings: "wdth" 100;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
 /* General */
 body {
   background-color: black;
@@ -59,6 +67,11 @@ p {
   -o-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.relative-title {
+  position: relative;
+  top: -5px;
 }
 
 .timeline {
@@ -112,6 +125,10 @@ p {
 .grayscale-img {
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
   filter: grayscale(1); /* Edge and Firefox 35+ */
+}
+
+.hero-img {
+  transform: scaleX(-1);
 }
 
 /* Section: Ribbon */

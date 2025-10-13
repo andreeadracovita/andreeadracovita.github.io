@@ -12,10 +12,10 @@ export default function Experience() {
 						<div className="mb-3">
 							<div className="anchor-parent">
 								<div id="exp-first" className="timeline-dot"></div>
-								<p className="fw-bold fs-5">Software Development Engineer / 2021 - Present</p>
+								<p className="fw-bold fs-5 relative-title">Software Development Engineer / 2021 - Present</p>
 							</div>
 							<p className="open-sans-light mb-1">Adobe Systems / Bucharest</p>
-							<ul className="open-sans">
+							<ul>
 								<li>Lead development of multiple typography features on desktop web, iOS and Android devices using TypeScript, C++ in a Node.js environment</li>
 								<li>Gain solid soft skills: project management, organisational and communication</li>
 								<li>Maintain code base integrity through unit and integration testing, code reviews and bug fixing.</li>
@@ -25,10 +25,10 @@ export default function Experience() {
 						<div>
 							<div className="anchor-parent">
 								<div id="exp-second" className="timeline-dot"></div>
-								<p className="fw-bold fs-5">Engine Programmer / 2018 - 2021</p>
+								<p className="fw-bold fs-5 relative-title">Engine Programmer / 2018 - 2021</p>
 							</div>
 							<p className="open-sans-light mb-1">Ubisoft / Bucharest</p>
-							<ul className="open-sans">
+							<ul>
 								<li>Develop and improve rendering features using C++, Vulkan API and GPU-pipeline, for improved visual results and fast processing.</li>
 								<li>Mentor students during the development of a game, leading to successful development and great teamwork experience.</li>
 							</ul>

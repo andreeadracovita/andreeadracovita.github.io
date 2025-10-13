@@ -11,21 +11,21 @@ export default function Navbar() {
 
 				<ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
 					<li>
-						<a href="#about" className="nav-link px-2 text-uppercase open-sans">About</a>
+						<a href="#about" className="nav-link px-2 text-uppercase">About</a>
 					</li>
 					<li>
-						<a href="#experience" className="nav-link px-2 text-uppercase open-sans">Professional</a>
+						<a href="#experience" className="nav-link px-2 text-uppercase">Professional</a>
 					</li>
 					<li>
-						<a href="#projects" className="nav-link px-2 text-uppercase open-sans">Projects</a>
+						<a href="#projects" className="nav-link px-2 text-uppercase">Projects</a>
 					</li>
 					<li>
-						<a href="#footer" className="nav-link px-2 text-uppercase open-sans">Contact</a>
+						<a href="#footer" className="nav-link px-2 text-uppercase">Contact</a>
 					</li>
 				</ul>
 
 				<div className="col-md-3 text-end d-none d-lg-block">
-					<a href="#footer" type="button" className="btn btn-outline-light pill-button open-sans">Let's talk</a>
+					<a href="#footer" type="button" className="btn btn-outline-light pill-button">Let's talk</a>
 				</div>
 			</header>
 		</section>

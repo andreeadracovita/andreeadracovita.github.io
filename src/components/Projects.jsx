@@ -13,7 +13,7 @@ export default function Projects() {
 				<div className="col-12 col-lg-9 anchor-parent">
 					<div className="grey-card p-4 mb-3">
 						<p className="fw-bold fs-5">Lodge - Accommodation Booking Web App / 2025</p>
-						<ul className="open-sans ps-4">
+						<ul className="ps-4">
 							<li>Plan, design and develop an Accommodation Booking web app which enables property owners to list their places and users to create bookings</li>
 							<li>Frontend developed with Node.js and React.js</li>
 							<li>Backend REST API developed with Node.js and Express.js</li>
@@ -32,7 +32,7 @@ export default function Projects() {
 
 					<div className="grey-card p-4">
 						<p className="fw-bold fs-5">eBanking Fullstack Web App / 2023</p>
-						<ul className="open-sans ps-4">
+						<ul className="ps-4">
 							<li>Plan, design and develop Java Fullstack Application for eBanking operations</li>
 							<li>Development of the REST API with Java, Spring Framework and Hibernate</li>
 							<li>Frontend developed with Node.js and React.js</li>
