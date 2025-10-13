@@ -17,7 +17,7 @@ function App() {
       <div className="container col-xxl-8 px-0">
         <Navbar />
       </div>
-      <div className="container col-xxl-8 light-grey-bg-color px-0 py-3 my-0">
+      <div className="container col-xxl-8 light-grey-bg-color px-0 p-3 my-0">
         <Hero />
         <SkillRibbon />
 

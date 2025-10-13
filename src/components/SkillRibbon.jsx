@@ -11,7 +11,11 @@ export default function SkillRibbon() {
 				<p className="text-yellow archivo-black-regular mx-1">/</p>
 				<p className="text-white text-uppercase">C++</p>
 				<p className="text-yellow archivo-black-regular mx-1">/</p>
+				<p className="text-white text-uppercase">Java</p>
+				<p className="text-yellow archivo-black-regular mx-1">/</p>
 				<p className="text-white text-uppercase">Node.js</p>
+				<p className="text-yellow archivo-black-regular mx-1">/</p>
+				<p className="text-white text-uppercase">Spring</p>
 				<p className="text-yellow archivo-black-regular mx-1">/</p>
 				<p className="text-white text-uppercase">Git</p>
 			</div>
