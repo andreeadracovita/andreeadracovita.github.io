@@ -4,7 +4,7 @@ export default function Footer() {
 	return (
 		<>
 			<section id="footer">
-				<footer className="row row-cols-1 row-cols-sm-2 row-cols-md-12 my-5 px-5">
+				<footer className="row row-cols-1 row-cols-sm-2 row-cols-md-12 my-2 px-5">
 					<div className="col-3">
 						<a href="/" className="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
 							<img src="logo-black.png" height="40" />
