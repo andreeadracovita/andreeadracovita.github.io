@@ -1,6 +1,6 @@
 :root {
   --accent-color: #f6df1e; /* yellow: #fbf303, spring teal: #0ea7a5 */
-  --light-grey: #c2c2c2;
+  --light-grey: #dedcdc;
 }
 
 /* Fonts */
@@ -44,6 +44,10 @@ p {
   margin-bottom: 0;
 }
 
+.img-border {
+  border: 1px black solid;
+}
+
 .z-1 {
   position: relative;
   z-index: 1;
@@ -58,15 +62,7 @@ p {
 }
 
 .subsection-header {
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  writing-mode: vertical-lr;
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
+  margin-bottom: 24px;
 }
 
 .relative-title {
@@ -118,6 +114,29 @@ p {
   border-radius: 7.5px;
 }
 
+.sticky-tag {
+  /*background-color: var(--accent-color);*/
+  position: absolute;
+  z-index: 0;
+
+  width: 40%;
+  height: 140%;
+  top: -8px;
+  left: -10%;
+  display: flex;
+}
+
+.sticky-tag-color {
+  background-color: var(--accent-color);
+  height: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.sticky-tag-transparent {
+  background-color: rgba(255, 255, 255, 0.5);
+  flex-grow: 100;
+}
+
 /* Section: Navbar */
 #navbar {
   background-color: black;
@@ -129,6 +148,10 @@ p {
 }
 
 #navbar a:hover {
+  color: var(--accent-color);
+}
+
+#navbar.nav-override:hover {
   color: var(--accent-color);
   font-weight: 800;
 }
@@ -177,19 +200,14 @@ p {
 /* Section: Projects */
 .yellow-tag-accent {
   background-color: var(--accent-color);
-  width: 100%;
-  height: 100%;
   position: absolute;
-  top: 0px;
-  left: -35%;
   z-index: 0;
+
+  width: 50%;
+  height: 80%;
+  top: -8px;
+  left: -10%;
 }
-/*.yellow-tag-accent {
-    width: 50%;
-    height: 80%;
-    top: -8px;
-    left: -10%;
-  }*/
 
 .link-icon {
   top: 10px;
@@ -224,7 +242,7 @@ p {
     text-align: center;
   }
 
-  .subsection-header {
+/*  .subsection-header {
     margin-bottom: 24px;
     writing-mode: horizontal-tb;
     -webkit-transform: rotate(0deg);
@@ -232,12 +250,12 @@ p {
     -o-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
-  }
+  }*/
 
-  .yellow-tag-accent {
+ /* .yellow-tag-accent {
     width: 50%;
     height: 80%;
     top: -8px;
     left: -10%;
-  }
+  }*/
 }

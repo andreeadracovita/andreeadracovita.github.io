@@ -1,16 +1,18 @@
 import { FaLink } from "react-icons/fa";
 
+import Tag from "./Tag";
+
 export default function Projects() {
 	
 	return (
 		<section id="projects">
-			<div className="row my-5">
-				<div className="col-lg-2 anchor-parent d-flex align-items-center">
+			<div className="my-5">
+				<div className="anchor-parent">
 					<h2 className="fw-bold text-uppercase archivo-black-regular subsection-header z-1 text-start">Projects</h2>
-					<div className="yellow-tag-accent"></div>
+					<Tag />
 				</div>
-				<div className="d-none d-lg-block col-1"></div>
-				<div className="col-12 col-lg-9 anchor-parent">
+
+				<div className="col-12 anchor-parent">
 					<div className="grey-card p-4 mb-3">
 						<p className="fw-bold fs-5 sharpie-highlight d-inline-block">Lodge - Travel Booking Web App / 2025</p>
 						<ul className="ps-4">
