@@ -14,9 +14,7 @@ function App() {
 
   return (
     <div className="container col-xl-8 black-bg-color anchor-parent justify-content-center">
-      <div className="px-0">
-        <Navbar />
-      </div>
+      <Navbar />
       <div className="light-grey-bg-color px-0 p-3 my-0">
         <Hero />
         <SkillRibbon />

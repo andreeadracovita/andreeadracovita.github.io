@@ -129,7 +129,8 @@ p {
 }
 
 #navbar a:hover {
-  color: var(--light-grey);
+  color: var(--accent-color);
+  font-weight: 800;
 }
 
 /* Section: Hero */
