@@ -5,7 +5,7 @@ export default function Hero() {
 			<div className="row flex-lg-row align-items-center mx-5">
 				<div id="hero-text" className="col-lg-6">
 					<h1 className="display-5 fw-bold text-body-emphasis lh-1 my-4 text-uppercase archivo-black-regular">Andreea Racovita</h1>
-					<p className="lead text-uppercase mb-5">Web software developer</p>
+					<p className="lead text-uppercase mb-5"><span className="sharpie-highlight">Web software developer</span></p>
 					<a href="#footer" type="button" className="btn btn-dark me-md-2 pill-button black-bg-color mb-5">Let's talk</a>
 				</div>
 				<div className="col-12 col-lg-6 d-flex justify-content-center">

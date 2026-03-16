@@ -13,11 +13,11 @@ import Footer from './components/Footer'
 function App() {
 
   return (
-    <div className="container black-bg-color anchor-parent">
-      <div className="container col-xxl-8 px-0">
+    <div className="container col-xl-8 black-bg-color anchor-parent justify-content-center">
+      <div className="px-0">
         <Navbar />
       </div>
-      <div className="container col-xxl-8 light-grey-bg-color px-0 p-3 my-0">
+      <div className="light-grey-bg-color px-0 p-3 my-0">
         <Hero />
         <SkillRibbon />
 
@@ -28,13 +28,13 @@ function App() {
         </div>
       </div>
 
-      <div className="container col-xxl-8 dark-grey-bg-color px-0 pb-3 my-0">
+      <div className="dark-grey-bg-color px-0 pb-3 my-0">
         <div className="mx-5 py-5">
           <Education />
         </div>
       </div>
 
-      <div className="container col-xxl-8 yellow-bg-color px-0 py-3 my-0">
+      <div id="business-card" className="yellow-bg-color px-0 p-5 my-5">
         <Footer />
       </div>
     </div>
