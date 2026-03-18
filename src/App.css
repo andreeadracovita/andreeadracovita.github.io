@@ -26,6 +26,7 @@
   font-variation-settings: "wdth" 100;
 }
 
+/* Overrides */
 body {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -34,7 +35,6 @@ body {
   font-variation-settings: "wdth" 100;
 }
 
-/* General */
 body {
   background-color: black;
 }
@@ -44,6 +44,18 @@ p {
   margin-bottom: 0;
 }
 
+/* Buttons */
+.pill-button {
+  border-radius: 500px;
+}
+
+.btn-outline-light:hover {
+  background-color: var(--accent-color);
+  color: black !important;
+  border-color: var(--accent-color);
+}
+
+/* Misc */
 .img-border {
   border: 1px black solid;
 }
@@ -51,10 +63,6 @@ p {
 .z-1 {
   position: relative;
   z-index: 1;
-}
-
-.pill-button {
-  border-radius: 500px;
 }
 
 .anchor-parent {
@@ -80,6 +88,21 @@ p {
   background-color: black;
   border-radius: 50%;
   margin-left: -5px;
+}
+
+.label-pill {
+  border: 1px black solid;
+  border-radius: 500px;
+  padding: 0.2em 0.7em;
+  margin: 0.2em 0.2em;
+  display: inline-block;
+  font-weight: 400;
+}
+
+.label-pill:hover {
+  background-color: black;
+  color: white;
+  cursor: default;
 }
 
 /* Colors */
@@ -147,12 +170,8 @@ p {
   color: inherit;
 }
 
-#navbar a:hover {
-  color: var(--accent-color);
-}
-
-#navbar.nav-override:hover {
-  color: var(--accent-color);
+#navbar .nav-link:hover {
+  color: var(--accent-color) !important;
   font-weight: 800;
 }
 
@@ -241,21 +260,4 @@ p {
   #hero-text {
     text-align: center;
   }
-
-/*  .subsection-header {
-    margin-bottom: 24px;
-    writing-mode: horizontal-tb;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }*/
-
- /* .yellow-tag-accent {
-    width: 50%;
-    height: 80%;
-    top: -8px;
-    left: -10%;
-  }*/
 }

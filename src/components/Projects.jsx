@@ -26,7 +26,7 @@ export default function Projects() {
 
 						<a href="https://project-lodge.onrender.com" target="_blank">
 							<div className="position-relative">
-								<img src="lodge.png" className="w-100 mt-2" />
+								<img src="lodge.png" className="w-100 mt-2 img-border" />
 								<div className="position-absolute link-icon"><FaLink /></div>
 							</div>
 						</a>
@@ -43,7 +43,7 @@ export default function Projects() {
 
 						<a href="https://andreeadracovita.github.io/memento/" target="_blank">
 							<div className="position-relative">
-								<img src="memento.png" className="w-100 mt-2" />
+								<img src="memento.png" className="w-100 mt-2 img-border" />
 								<div className="position-absolute link-icon"><FaLink /></div>
 							</div>
 						</a>

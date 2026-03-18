@@ -1,23 +1,18 @@
 export default function SkillRibbon() {
+
+	const skills = ["TypeScript", "JavaScript", "React.js", "Node.js", "Java", "Spring", "C++", "Git"];
 	
 	return (
 		<section id="ribbon">
-			<div className="d-flex flex-wrap justify-content-around black-bg-color px-5" id="skills-ribbon">
-				<p className="text-white text-uppercase mb-1">TypeScript</p>
-				<p className="text-yellow archivo-black-regular mx-1">/</p>
-				<p className="text-white text-uppercase">JavaScript</p>
-				<p className="text-yellow archivo-black-regular mx-1">/</p>
-				<p className="text-white text-uppercase">React</p>
-				<p className="text-yellow archivo-black-regular mx-1">/</p>
-				<p className="text-white text-uppercase">C++</p>
-				<p className="text-yellow archivo-black-regular mx-1">/</p>
-				<p className="text-white text-uppercase">Java</p>
-				<p className="text-yellow archivo-black-regular mx-1">/</p>
-				<p className="text-white text-uppercase">Node.js</p>
-				<p className="text-yellow archivo-black-regular mx-1">/</p>
-				<p className="text-white text-uppercase">Spring</p>
-				<p className="text-yellow archivo-black-regular mx-1">/</p>
-				<p className="text-white text-uppercase">Git</p>
+			<div className="d-flex flex-wrap justify-content-evenly black-bg-color px-5" id="skills-ribbon">
+			{
+				skills.map((skill, index) =>
+					<>
+						{index > 0 && <span className="text-yellow archivo-black-regular mx-1">/</span>}
+						<span className="text-white text-uppercase mb-1">{skill}</span>
+					</>
+				)
+			}
 			</div>
 		</section>
 	);
