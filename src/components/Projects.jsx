@@ -7,13 +7,13 @@ export default function Projects() {
 	return (
 		<section id="projects">
 			<div className="my-5">
-				<div className="anchor-parent">
+				<div id="lodge" className="anchor-parent">
 					<h2 className="fw-bold text-uppercase archivo-black-regular subsection-header z-1 text-start">Projects</h2>
 					<Tag />
 				</div>
 
 				<div className="col-12 anchor-parent">
-					<div id="lodge" className="grey-card p-4 mb-3">
+					<div className="grey-card p-4 mb-3">
 						<p className="fw-bold fs-5 sharpie-highlight d-inline-block">Lodge - Travel Booking Web App</p>
 						<ul className="ps-4">
 							<li>Plan, design and develop an Accommodation Booking web app which enables property owners to list their places and users to create bookings</li>
@@ -49,7 +49,7 @@ export default function Projects() {
 						</a>
 					</div>
 
-					<div id="banking" className="grey-card p-4">
+					<div className="grey-card p-4">
 						<p className="fw-bold fs-5 sharpie-highlight d-inline-block">eBanking Fullstack Web App</p>
 						<ul className="ps-4">
 							<li>Plan, design and develop Java Fullstack Application for eBanking operations</li>
