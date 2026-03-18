@@ -13,8 +13,8 @@ export default function Projects() {
 				</div>
 
 				<div className="col-12 anchor-parent">
-					<div className="grey-card p-4 mb-3">
-						<p className="fw-bold fs-5 sharpie-highlight d-inline-block">Lodge - Travel Booking Web App / 2025</p>
+					<div id="lodge" className="grey-card p-4 mb-3">
+						<p className="fw-bold fs-5 sharpie-highlight d-inline-block">Lodge - Travel Booking Web App</p>
 						<ul className="ps-4">
 							<li>Plan, design and develop an Accommodation Booking web app which enables property owners to list their places and users to create bookings</li>
 							<li>Frontend developed with Node.js and React.js</li>
@@ -33,7 +33,7 @@ export default function Projects() {
 					</div>
 
 					<div className="grey-card p-4 mb-3">
-						<p className="fw-bold fs-5 sharpie-highlight d-inline-block">Memento - learning side hustle / 2023</p>
+						<p className="fw-bold fs-5 sharpie-highlight d-inline-block">Memento - learning side hustle</p>
 						<ul className="ps-4">
 							<li>A collection of fundamental software development knowledge snippets</li>
 							<li>Good for note taking, interview prep and general purpose</li>
@@ -49,8 +49,8 @@ export default function Projects() {
 						</a>
 					</div>
 
-					<div className="grey-card p-4">
-						<p className="fw-bold fs-5 sharpie-highlight d-inline-block">eBanking Fullstack Web App / 2023</p>
+					<div id="banking" className="grey-card p-4">
+						<p className="fw-bold fs-5 sharpie-highlight d-inline-block">eBanking Fullstack Web App</p>
 						<ul className="ps-4">
 							<li>Plan, design and develop Java Fullstack Application for eBanking operations</li>
 							<li>Development of the REST API with Java, Spring Framework and Hibernate</li>

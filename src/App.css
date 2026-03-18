@@ -175,6 +175,11 @@ p {
   font-weight: 800;
 }
 
+.text-redirect {
+  color: black;
+  text-decoration: none;
+}
+
 /* Section: Hero */
 .grayscale-img {
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
