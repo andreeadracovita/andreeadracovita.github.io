@@ -33,7 +33,7 @@ function App() {
           </div>
         </div>
 
-        <div id="business-card" className="yellow-bg-color px-0 p-5 my-5">
+        <div id="business-card2" className="yellow-bg-color px-0 p-5 my-5">
           <Footer />
         </div>
       </div>

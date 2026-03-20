@@ -1,3 +1,4 @@
+import SkillsList from "./SkillsList";
 import Tag from "./Tag";
 
 export default function Experience() {
@@ -12,11 +13,11 @@ export default function Experience() {
 				<Tag />
 			</div>
 
-			<div className="col-12">
+			<div>
 				<div className="timeline px-4">
 					<div className="mb-3">
 						<div className="anchor-parent">
-							<div id="exp-first" className="timeline-dot"></div>
+							<div className="timeline-dot"></div>
 							<p className="fw-bold fs-5 relative-title">Software Development Engineer / 2021 - Present</p>
 						</div>
 						<p className="open-sans mb-1">Adobe Systems / Bucharest</p>
@@ -25,13 +26,11 @@ export default function Experience() {
 							<li>Gain solid soft skills: project management, organisational and communication</li>
 							<li>Maintain code base integrity through unit and integration testing, code reviews and bug fixing.</li>
 						</ul>
-						{
-							adobeSkills.map(skill => <span className="label-pill">{skill}</span>)
-						}
+						<SkillsList skills={adobeSkills} />
 					</div>
 					<div>
 						<div className="anchor-parent">
-							<div id="exp-second" className="timeline-dot"></div>
+							<div className="timeline-dot"></div>
 							<p className="fw-bold fs-5 relative-title">Engine Programmer / 2018 - 2021</p>
 						</div>
 						<p className="open-sans mb-1">Ubisoft / Bucharest</p>
@@ -39,9 +38,7 @@ export default function Experience() {
 							<li>Develop and improve rendering features for improved visual results and fast processing.</li>
 							<li>Mentor students during the development of a game, leading to successful development and great teamwork experience.</li>
 						</ul>
-						{
-							ubisoftSkills.map(skill => <span className="label-pill">{skill}</span>)
-						}
+						<SkillsList skills={ubisoftSkills} />
 					</div>
 				</div>
 			</div>

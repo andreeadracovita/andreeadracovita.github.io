@@ -1,4 +1,4 @@
-import { FaLink } from "react-icons/fa";
+import { FiArrowUpRight } from "react-icons/fi";
 
 import Tag from "./Tag";
 
@@ -12,22 +12,26 @@ export default function Projects() {
 					<Tag />
 				</div>
 
-				<div className="col-12 anchor-parent">
+				<div className="anchor-parent">
 					<div className="grey-card p-4 mb-3">
 						<p className="fw-bold fs-5 sharpie-highlight d-inline-block">Lodge - Travel Booking Web App</p>
 						<ul className="ps-4">
-							<li>Plan, design and develop an Accommodation Booking web app which enables property owners to list their places and users to create bookings</li>
-							<li>Frontend developed with Node.js and React.js</li>
-							<li>Backend REST API developed with Node.js and Express.js</li>
-							<li>Data is stored in a PostgreSQL database</li>
+							<li><span className="sharpie-highlight">Plan, design, develop & deploy</span> an Accommodation Booking web app</li>
+							<li>Frontend developed with <span className="sharpie-highlight">Node.js</span> and <span className="sharpie-highlight">React.js</span></li>
+							<li>Backend REST API developed with <span className="sharpie-highlight">Node.js</span> and <span className="sharpie-highlight">Express.js</span></li>
+							<li>Data storage in <span className="sharpie-highlight">PostgreSQL</span> database</li>
 						</ul>
-						<a href="https://github.com/andreeadracovita/project-lodge" type="button" className="btn btn-dark me-md-2 pill-button black-bg-color">Front-end repo</a>
-						<a href="https://github.com/andreeadracovita/project-lodge-db-rest-api" type="button" className="btn btn-outline-dark pill-button">Back-end repo</a>
+						<div className="mb-3">
+							<a href="https://github.com/andreeadracovita/project-lodge" target="_blank" type="button" className="btn btn-dark me-md-2 pill-button black-bg-color">Front-end repo</a>
+							<a href="https://github.com/andreeadracovita/project-lodge-db-rest-api" target="_blank" type="button" className="btn btn-outline-dark pill-button">Back-end repo</a>
+						</div>
 
 						<a href="https://project-lodge.onrender.com" target="_blank">
-							<div className="position-relative">
+							<div className="w-75 position-relative hovered-layer">
 								<img src="lodge.png" className="w-100 mt-2 img-border" />
-								<div className="position-absolute link-icon"><FaLink /></div>
+								<div className="position-absolute link-icon">
+									<span className="ms-2 redirect"><FiArrowUpRight size="36" /></span>
+								</div>
 							</div>
 						</a>
 					</div>
@@ -38,13 +42,19 @@ export default function Projects() {
 							<li>A collection of fundamental software development knowledge snippets</li>
 							<li>Good for note taking, interview prep and general purpose</li>
 							<li>Retro design</li>
-							<li>React.js</li>
+							<li><span className="sharpie-highlight">React.js</span></li>
 						</ul>
 
+						<div className="mb-3">
+							<a href="https://github.com/andreeadracovita/memento" target="_blank" type="button" className="btn btn-dark pill-button black-bg-color">Repo</a>
+						</div>
+
 						<a href="https://andreeadracovita.github.io/memento/" target="_blank">
-							<div className="position-relative">
+							<div className="w-75 position-relative hovered-layer">
 								<img src="memento.png" className="w-100 mt-2 img-border" />
-								<div className="position-absolute link-icon"><FaLink /></div>
+								<div className="position-absolute link-icon">
+									<span className="ms-2 redirect"><FiArrowUpRight size="36" /></span>
+								</div>
 							</div>
 						</a>
 					</div>
@@ -52,12 +62,12 @@ export default function Projects() {
 					<div className="grey-card p-4">
 						<p className="fw-bold fs-5 sharpie-highlight d-inline-block">eBanking Fullstack Web App</p>
 						<ul className="ps-4">
-							<li>Plan, design and develop Java Fullstack Application for eBanking operations</li>
-							<li>Development of the REST API with Java, Spring Framework and Hibernate</li>
-							<li>Frontend developed with Node.js and React.js</li>
+							<li>Plan, design and develop <span className="sharpie-highlight">Java Fullstack Application for eBanking</span> operations</li>
+							<li>REST API with <span className="sharpie-highlight">Java, Spring Framework and Hibernate</span></li>
+							<li>Frontend developed with <span className="sharpie-highlight">Node.js</span> and <span className="sharpie-highlight">React.js</span></li>
 						</ul>
-						<a href="https://github.com/andreeadracovita/ebanking-react-frontend" type="button" className="btn btn-dark me-md-2 pill-button black-bg-color">Front-end repo</a>
-						<a href="https://github.com/andreeadracovita/ebanking-rest-api" type="button" className="btn btn-outline-dark pill-button">REST API repo</a>
+						<a href="https://github.com/andreeadracovita/ebanking-react-frontend" target="_blank" type="button" className="btn btn-dark me-md-2 pill-button black-bg-color">Front-end repo</a>
+						<a href="https://github.com/andreeadracovita/ebanking-rest-api" target="_blank" type="button" className="btn btn-outline-dark pill-button">REST API repo</a>
 					</div>
 				</div>
 			</div>
