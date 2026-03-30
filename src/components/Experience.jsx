@@ -3,7 +3,7 @@ import Tag from "./Tag";
 
 export default function Experience() {
 
-	const adobeSkills = ["TypeScript", "C++", "Node.js", "Web Components", "Git", "Jira", "VS Code", "Cursor", "MacOS"];
+	const adobeSkills = ["TypeScript", "Node.js", "Web Components", "C++", "Git", "Jira", "VS Code", "Cursor", "MacOS"];
 	const ubisoftSkills = ["C++", "Vulkan"];
 	
 	return (
@@ -22,9 +22,19 @@ export default function Experience() {
 						</div>
 						<p className="open-sans mb-1">Adobe Systems / Bucharest</p>
 						<ul>
-							<li>Lead development of multiple typography features on desktop web, iOS and Android devices using TypeScript, C++ in a Node.js environment</li>
-							<li>Gain solid soft skills: project management, organisational and communication</li>
-							<li>Maintain code base integrity through unit and integration testing, code reviews and bug fixing.</li>
+							<li>Contributions to online desktop and mobile App for content creation & editing named Express</li>
+							<li>Code development has spanned across typography area (text object interactions, mobile UX, AI generated text effects, etc.), layout and shapes</li>
+							<li>Lead multiple initiatives, either solo or in teams</li>
+							<li>
+								Especially enjoyed creating channels of communication, which in turn led to:
+								<ul>
+									<li>Alignment of stakeholders and developers</li>
+									<li>Transparent development</li>
+									<li>Promoted visibility into the progress</li>
+								</ul>
+							</li>
+							<li>Maintain code base integrity through unit and integration testing, code reviews and bug fixing</li>
+							<li>Cursor powered development</li>
 						</ul>
 						<SkillsList skills={adobeSkills} />
 					</div>
@@ -35,8 +45,8 @@ export default function Experience() {
 						</div>
 						<p className="open-sans mb-1">Ubisoft / Bucharest</p>
 						<ul>
-							<li>Develop and improve rendering features for improved visual results and fast processing.</li>
-							<li>Mentor students during the development of a game, leading to successful development and great teamwork experience.</li>
+							<li>Develop and improve rendering features for improved visual results and fast processing</li>
+							<li>Mentor students during the development of a game, leading to successful development and great teamwork experience</li>
 						</ul>
 						<SkillsList skills={ubisoftSkills} />
 					</div>
