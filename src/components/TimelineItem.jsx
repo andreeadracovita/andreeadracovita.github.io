@@ -21,7 +21,7 @@ export default function TimelineItem({title, subtitle, link, spacing, icon, skil
 						<p className="open-sans-light">{subtitle}</p>
 						{
 							link &&
-							<a href={link} type="button" className="text-redirect">
+							<a href={link} type="button" className="text-redirect" target="_blank">
 								<div className="btn btn-outline-dark pill-button d-flex align-content-center mt-2">
 									<span className="">Show credentials</span>
 									<span className="ms-2 redirect"><FiArrowUpRight size="36" color="black" /></span>
@@ -30,7 +30,9 @@ export default function TimelineItem({title, subtitle, link, spacing, icon, skil
 						}
 						{
 							skills &&
-							<SkillsList skills={skills} />
+							<div className="mt-3">
+								<SkillsList skills={skills} />
+							</div>
 						}
 					</div>
 				</div>

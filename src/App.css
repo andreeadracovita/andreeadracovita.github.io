@@ -45,6 +45,11 @@ p {
   margin-bottom: 0;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
 /* Buttons */
 .pill-button {
   border-radius: 500px;

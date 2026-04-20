@@ -11,7 +11,9 @@ export default function Footer() {
 							Racovita
 						</h2>
 						<p className="mb-1">andreea.d.racovita@gmail.com</p>
-						<p className="mb-1">www.andreeadracovita.github.io</p>
+						<a href="https://andreeadracovita.github.io/" target="_blank">
+							<p className="mb-1">andreeadracovita.github.io</p>
+						</a>
 						<p className="mb-5">+40 755 246 451</p>
 
 						<a href="https://github.com/andreeadracovita" target="_blank">
