@@ -38,14 +38,23 @@ export default function Projects() {
 				</div>
 
 				<div className="grey-card p-4 mb-3">
-					<p className="fw-bold fs-5 sharpie-highlight d-inline-block">Nutrition Blog [In Progress - Prototyping]</p>
+					<p className="fw-bold fs-5 sharpie-highlight d-inline-block">Nutrition Blog [In Progress]</p>
 					<ul className="ps-4">
 						<li>Plan, design, develop & deploy a modern nutrition blog.</li>
-						<li>Technologies: <span className="sharpie-highlight">Next.js, Redux, Tailwind CSS, TypeScript</span></li>
+						<li>Technologies: <span className="sharpie-highlight">Next.js, Tailwind CSS, TypeScript</span></li>
 					</ul>
 					<div className="mb-3">
 						<a href="https://github.com/andreeadracovita/nutrition-blog" target="_blank" type="button" className="btn btn-dark me-md-2 pill-button black-bg-color">Repo</a>
 					</div>
+
+					<a href="https://nutrition-blog.onrender.com/" target="_blank">
+						<div className="w-75 position-relative hovered-layer">
+							<img src="nutrition-blog.png" className="w-100 mt-2 img-border" />
+							<div className="position-absolute link-icon">
+								<span className="ms-2 redirect"><FiArrowUpRight size="36" /></span>
+							</div>
+						</div>
+					</a>
 				</div>
 
 				<div className="grey-card p-4 mb-3">

@@ -3,7 +3,7 @@ import Tag from "./Tag";
 
 export default function Experience() {
 
-	const adobeSkills = ["TypeScript", "Node.js", "Web Components", "C++", "Git", "Jira", "VS Code", "Cursor", "MacOS"];
+	const adobeSkills = ["TypeScript", "Node.js", "Web Components", "C++", "Git", "Jira", "CursorAI", "MacOS"];
 	const ubisoftSkills = ["C++", "Vulkan"];
 	
 	return (
@@ -22,19 +22,19 @@ export default function Experience() {
 						</div>
 						<p className="open-sans mb-1">Adobe Systems / Bucharest</p>
 						<ul>
-							<li>Contributions to online desktop and mobile App for content creation & editing named Express</li>
-							<li>Code development has spanned across typography area (text object interactions, mobile UX, AI generated text effects, etc.), layout and shapes</li>
+							<li>Bring contributions to <span className="sharpie-highlight">online desktop and mobile App</span> for content creation & editing named Express</li>
+							<li>Code development spanning across typography area (text object interactions, mobile UX, AI generated text effects, etc.), layout and shapes</li>
 							<li>Lead multiple initiatives, either solo or in teams</li>
 							<li>
-								Especially enjoyed creating channels of communication, which in turn led to:
+								Especially enjoyed opening channels of <span className="sharpie-highlight">communication</span>, which in turn led to:
 								<ul>
-									<li>Alignment of stakeholders and developers</li>
-									<li>Transparent development</li>
-									<li>Promoted visibility into the progress</li>
+									<li><span className="sharpie-highlight">Alignment</span> of stakeholders and developers</li>
+									<li><span className="sharpie-highlight">Transparent</span> development</li>
+									<li>Promoted <span className="sharpie-highlight">visibility into the progress</span></li>
 								</ul>
 							</li>
-							<li>Maintain code base integrity through unit and integration testing, code reviews and bug fixing</li>
-							<li>Cursor powered development</li>
+							<li>Maintain code base integrity through unit and integration testing, code reviews and maintenance</li>
+							<li>CursorAI powered development</li>
 						</ul>
 						<SkillsList skills={adobeSkills} />
 					</div>

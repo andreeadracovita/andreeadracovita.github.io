@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SkillRibbon() {
 
-	const skills = ["TypeScript", "JavaScript", "React.js", "Node.js", "Java", "Spring", "C++", "Git"];
+	const skills = ["TypeScript", "Next.js", "TailwindCSS", "React.js", "Node.js", "Java", "Spring", "C++", "Git"];
 	
 	return (
 		<section id="ribbon">
