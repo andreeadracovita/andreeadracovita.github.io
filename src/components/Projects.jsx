@@ -24,7 +24,8 @@ export default function Projects() {
 					</ul>
 					<div className="mb-3">
 						<a href="https://github.com/andreeadracovita/project-lodge" target="_blank" type="button" className="btn btn-dark me-md-2 pill-button black-bg-color">Front-end repo</a>
-						<a href="https://github.com/andreeadracovita/project-lodge-db-rest-api" target="_blank" type="button" className="btn btn-outline-dark pill-button">Back-end repo</a>
+						<a href="https://github.com/andreeadracovita/project-lodge-db-rest-api" target="_blank" type="button" className="btn btn-outline-dark me-md-2 pill-button">Back-end repo</a>
+						<a href="https://canva.link/qbnk0rqdfq3lb1r" target="_blank" type="button" className="btn btn-outline-dark pill-button">Design</a>
 					</div>
 
 					<a href="https://project-lodge.onrender.com" target="_blank">
@@ -45,7 +46,7 @@ export default function Projects() {
 					</ul>
 					<div className="mb-3">
 						<a href="https://github.com/andreeadracovita/nutrition-blog" target="_blank" type="button" className="btn btn-dark me-md-2 pill-button black-bg-color">Repo</a>
-						<a href="https://www.canva.com/design/DAHF4WP4GXo/9dQVu1WWJFMAW8_xcojD7w/view?utm_content=DAHF4WP4GXo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h55b6b2dab6" target="_blank" type="button" className="btn btn-outline-dark pill-button">Design</a>
+						<a href="https://canva.link/79eaqap2nvr7twm" target="_blank" type="button" className="btn btn-outline-dark pill-button">Design</a>
 					</div>
 
 					<a href="https://nutrition-blog.onrender.com/" target="_blank">
